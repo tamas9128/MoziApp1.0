@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cinemas>
+    <cinema id="1">
+        <name>Apolló</name>
+        <address>Db</address>
+        <presentations>
+            <presentation id="1">
+                <time>2018-05-25T21:29:46.631</time>
+                <movie id="1">
+                    <title>Amerika Pite</title>
+                    <length>139000000</length>
+                    <_3d>true</_3d>
+                    <sync>true</sync>
+                    <language>magyar</language>
+                    <type>Vígjáték</type>
+                    <actors>
+                        <actor>Seann William Scott</actor>
+                    </actors>
+                </movie>
+                <room>
+                    <id>1</id>
+                    <name>1-es terem</name>
+                    <seats>120</seats>
+                </room>
+                <reservedSeats>18</reservedSeats>
+                <firstPlayOnDay>true</firstPlayOnDay>
+            </presentation>
+            <presentation id="3">
+                <time>2018-05-25T21:29:46.662</time>
+                <movie id="1">
+                    <title>Superman</title>
+                    <length>139000000</length>
+                    <_3d>true</_3d>
+                    <sync>true</sync>
+                    <language>magyar</language>
+                    <type>Horror, Vígjáték</type>
+                    <actors>
+                        <actor>Marlon Wayans</actor>
+                    </actors>
+                </movie>
+                <room>
+                    <id>1</id>
+                    <name>2-es terem</name>
+                    <seats>80</seats>
+                </room>
+                <reservedSeats>8</reservedSeats>
+                <firstPlayOnDay>false</firstPlayOnDay>
+            </presentation>
+            <presentation id="4">
+                <time>2018-05-20T01:29:46.662</time>
+                <movie id="1">
+                    <title>Star Wars</title>
+                    <length>139000000</length>
+                    <_3d>true</_3d>
+                    <sync>true</sync>
+                    <language>magyar</language>
+                    <type>Sci-fi</type>
+                    <actors>
+                        <actor>George Lucas</actor>
+                    </actors>
+                </movie>
+                <room>
+                    <id>1</id>
+                    <name>2-es terem</name>
+                    <seats>80</seats>
+                </room>
+                <reservedSeats>9</reservedSeats>
+                <firstPlayOnDay>false</firstPlayOnDay>
+            </presentation>
+            <presentation id="2">
+                <time>2018-05-25T00:29:46.662</time>
+                <movie id="1">
+                    <title>Jurassic World</title>
+                    <length>139000000</length>
+                    <_3d>true</_3d>
+                    <sync>true</sync>
+                    <language>magyar</language>
+                    <type>Kaland</type>
+                    <actors>
+                        <actor>Chris Prattd</actor>
+                    </actors>
+                </movie>
+                <room>
+                    <id>1</id>
+                    <name>1-es terem</name>
+                    <seats>120</seats>
+                </room>
+                <reservedSeats>7</reservedSeats>
+                <firstPlayOnDay>false</firstPlayOnDay>
+            </presentation>
+        </presentations>
+        <ticketPrice>1000.0</ticketPrice>
+    </cinema>
+</cinemas>

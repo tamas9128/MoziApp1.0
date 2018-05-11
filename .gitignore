@@ -1,0 +1,9 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven
+target/
+info.log
+messages.log

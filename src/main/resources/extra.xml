@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<extras>
+    <extra id="1">
+        <name>3d Szemüveg</name>
+        <price>300</price>
+    </extra>
+    <extra id="2">
+        <name>Kis párna</name>
+        <price>500</price>
+    </extra>
+</extras>

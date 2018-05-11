@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<foods>
+    <food id="1">
+        <name>Chips</name>
+        <price>100.0</price>
+        <size>MEDIUM</size>
+        <type>SOLID</type>
+    </food>
+    <food id="2">
+        <name>Pepsi Cola</name>
+        <price>50.0</price>
+        <size>MEDIUM</size>
+        <type>LIQUID</type>
+    </food>
+    <food id="3">
+        <name>Nachos</name>
+        <price>110.0</price>
+        <size>MEDIUM</size>
+        <type>SOLID</type>
+    </food>
+    <food id="4">
+        <name>Popcorn</name>
+        <price>20.0</price>
+        <size>MEDIUM</size>
+        <type>SOLID</type>
+    </food>  
+	<food id="5">
+        <name>Coca cola</name>
+        <price>50.0</price>
+        <size>MEDIUM</size>
+        <type>LIQUID</type>
+    </food>
+</foods>
