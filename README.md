@@ -1,3 +1,3 @@
-Cinema app
-##########
-A projekt egy mozi mûsoraira való jegy rendelését, foglalálást hivatott feldolgozni.
+Mozi App
+
+A projekt egy mozi mÅ±soraira valÃ³ jegy foglalÃ¡sÃ¡t dolgozza fel.
