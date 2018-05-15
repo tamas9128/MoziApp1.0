@@ -7,7 +7,7 @@
 	<name>Mozi</name>
 
 	<description>Mozi előadásaira lehet jegyet foglalni, illetve ételt és néhány extrát.</description>
-	<url>https://github.com/tamas9128/MoziApp.git</url>
+	<url>https://github.com/tamas9128/MoziApp1.0.git</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,9 +29,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git:https://github.com/tamas9128/MoziApp.git</connection>
-		<url>https://github.com/tamas9128/MoziApp.git</url>
-		<developerConnection>scm:git:https://github.com/tamas9128/MoziApp.git</developerConnection>
+		<connection>scm:git:git:https://github.com/tamas9128/MoziApp1.0.git</connection>
+		<url>https://github.com/tamas9128/MoziApp1.0.git</url>
+		<developerConnection>scm:git:https://github.com/tamas9128/MoziApp1.0.git</developerConnection>
 	</scm>
 
 	<organization>
@@ -79,12 +79,19 @@
 			<version>1.7.7</version>
 			<scope>compile</scope>
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>
 		<plugins>
-
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<version>3.0.0</version>
+				<configuration>
+					<configLocation>src/main/resources/checkstyle.xml</configLocation>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-enforcer-plugin</artifactId>
@@ -163,7 +170,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 		</plugins>
 	</build>
 
@@ -213,9 +220,5 @@
 		</plugins>
 
 	</reporting>
-
-
-
-
 
 </project>
